@@ -28,3 +28,18 @@ Gas Costs:
 - counting down is more efficient than counting up.
 - pay additional 2,100 gas if it is the first time accessing a variable in a transaction. (cold storage)
 - pay additional 100 gas if the variable has already been touched.
+
+=> memory is more expensive than calldata. | calldata can not be changed.
+
+=> compiler sorts functions (function selectors) in hexadecimal order.
+   if you have a function that is very gas sensitive, you should try to make sure that it's function selector is near the top.
+   function selector = first 4 bytes of the keccak256 of the function name.
+
+=> use <, > or == instead of <= or >=
+
+=> use shift instead of multily by 2k or divide by 2k.
+   Ex. 
+      n * 2 = n << 1
+      n / 2 = n >> 1
+
+=> use short circuiting.
