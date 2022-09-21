@@ -45,3 +45,5 @@ Gas Costs:
 => use short circuiting.
 
 => private, internal are cheaper than public, external.
+
+=> errors are cheaper than requires(store string onchain).
