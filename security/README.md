@@ -8,3 +8,4 @@
 [Forcefully Send Ether with selfdestruct](https://solidity-by-example.org/hacks/self-destruct/)
   - Don't rely on address(this).balance
   
+[Unsafe Delegatecall](https://solidity-by-example.org/hacks/delegatecall/)
