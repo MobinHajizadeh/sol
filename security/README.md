@@ -9,3 +9,5 @@
   - Don't rely on address(this).balance
   
 [Unsafe Delegatecall](https://solidity-by-example.org/hacks/delegatecall/)
+
+[DOS](https://solidity-by-example.org/hacks/denial-of-service/)
