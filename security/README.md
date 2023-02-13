@@ -1,6 +1,6 @@
 # Security
 
-## Attacks:
+## Attacks
 [Reentrancy attack](https://solidity-by-example.org/hacks/re-entrancy/)
   fallback()
   - update state variables before make any external calls
@@ -13,7 +13,7 @@
 
 [DOS](https://solidity-by-example.org/hacks/denial-of-service/)
 
-## Tools:
+## Tools
 [Tenderly](https://tenderly.co)
   - alert
   - simulation 
