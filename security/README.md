@@ -21,3 +21,6 @@
 
 [Flashbots](https://docs.flashbots.net/)
   - sandwich attacks
+
+[Echidna](https://github.com/crytic/echidna)
+  - fuzz testing
