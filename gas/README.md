@@ -46,4 +46,6 @@ Gas Costs:
 
 => private, internal are cheaper than public, external.
 
-=> errors are cheaper than requires(store string onchain).
+=> using custom errors are more gas efficient:
+      - revert ExampleError() ✅ 
+      - require(true, "ExampleError"); // stores str onchain
